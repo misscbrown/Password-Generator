@@ -57,4 +57,23 @@ function getPrompts(){
       
     }
 
-    
+ 
+
+    if (confirm('Would you like lowercase letters in your password?')) {
+        choiceArray = choiceArray.concat(lowerCase);
+      }
+      
+      if (confirm('Would you like uppercase letters in your password?')) {
+        choiceArray = choiceArray.concat(upperCase);
+      }
+      
+      if (confirm('Would you like special characters in your password?')) {
+        choiceArray = choiceArray.concat(specialChar);
+      }
+      
+      if (confirm('Would you like numbers in your password?')) {
+        choiceArray = choiceArray.concat(number);
+      }
+      return true;
+      
+      }
