@@ -33,3 +33,15 @@ function writePassword() {
   
   } 
 
+  function generatePassword() {
+
+    let password = '';
+    for(let i = 0; i < characterLength; i++) {
+      let randomLetter = Math.floor(Math.random() * choiceArray.length)
+      password = password + choiceArray[randomLetter];
+  
+    }
+    return password;
+  
+  }
+
