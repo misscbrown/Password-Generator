@@ -4,5 +4,8 @@ This password generator allows a user to generate a secure password that is suit
 
 The functionality is powered by Javascript, with styling using CSS. 
 
-Here is the live github link: https://misscbrown.github.io/Password-Generator/
+Here is the live github link: https://misscbrown.github.io/Password-Generator/index.html
 
+![screenshot](/Assets/Screenshot-1.png)
+
+![screenshot](/Assets/screenshot-2.png)
